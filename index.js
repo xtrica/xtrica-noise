@@ -1,5 +1,5 @@
 /*
- * xtrica-noise v1.0.1514928426 (https://xtrica.com)
+ * xtrica-noise v1.0.1514928579 (https://xtrica.com)
  * Copyright 2017-2018 (or 2150?) Xtrica
  * Licensed under MIT
  */
@@ -10,6 +10,6 @@ if(vm.noises.hasOwnProperty(key)){try{vm.noises[key][0].addEventListener('ended'
 vm.noises[key][0].removeEventListener('ended',handler)
 resolve()})
 vm.noises[key][0].volume=(volume>-1)?(Math.abs(parseInt(volume))/100):vm.noises[key][1]
-vm.noises[key][0].play()}catch(error){reject()}}else{reject()}})}
+vm.noises[key][0].play()}catch(error){resolve()}}else{resolve()}})}
 this.add=function(key,audioObject,defaultVolume=100){this.noises[key.toLowerCase()]=[audioObject,(Math.abs(parseInt(defaultVolume))/100)]
 this.noises[key.toLowerCase()][0].load()}}
