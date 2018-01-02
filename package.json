@@ -1,6 +1,6 @@
 {
   "name": "xtrica-noise",
-  "version": "1.0.1513199668",
+  "version": "1.0.1514892374",
   "description": "Xtrica Noise: A javascript Audio helper class that plays a sound (in response to UI events) and lets you know when it is done playing.",
   "main": "index.js",
   "author": {
