@@ -1,5 +1,5 @@
 /*
- * xtrica-noise v1.0.1515209754 (https://xtrica.com)
+ * xtrica-noise v1.0.1515210388 (https://xtrica.com)
  * Copyright 2017-2018 (or 2150?) Xtrica
  * Licensed under MIT
  */
